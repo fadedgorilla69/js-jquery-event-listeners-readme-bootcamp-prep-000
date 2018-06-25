@@ -26,3 +26,13 @@ function submitIt() {
     alert('Your form is going to be submitted now.')
   })
 }
+
+//call functions here...
+
+$(document).on('ready', function()
+{
+  getIt;
+  frameIt;
+  pressIt;
+  submitIt;
+})
