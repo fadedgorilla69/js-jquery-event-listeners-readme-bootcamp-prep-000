@@ -8,11 +8,15 @@ $(document).ready(function(){
   $('#p').on('click', function(){
     alert("Hey!");
   
-}}
 
+}
+
+
+$(document).ready(function(){
+  
   function frameIt(){
     $(document).on('load', function(){
       
     })
   }
-}};
+})
